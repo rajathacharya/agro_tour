@@ -151,9 +151,13 @@ foreach($results as $result)
 						<li class="spe" align="center">
 					<button type="submit" name="submit2" class="btn-primary btn">Book</button>
 						</li>
+						
 						<?php } else {?>
 							<li class="sigi" align="center" style="margin-top: 1%">
-							<a href="#" data-toggle="modal" data-target="#myModal4" class="btn-primary btn" > Book</a></li>
+							<a href="#" data-toggle="modal" data-target="#myModal4" class="btn-primary btn" > Book</a>
+							<iframe width="400" height="300"  name="iframe_a" style="border:0; z-index:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<a href="https://www.google.com/maps/embed?pb=!4v1684300142198!6m8!1m7!1s-H9VfAkFdMvDUmWKlyxcXg!2m2!1d31.31310487727758!2d75.49535739236562!3f156.94605263157894!4f-0.9473684210526301!5f0.4000000000000002"  target="iframe_a" class="btn-primary btn" > Book</a>
+						</li>
 							<?php } ?>
 					<div class="clearfix"></div>
 				</ul>
@@ -178,4 +182,5 @@ foreach($results as $result)
 <!-- write us -->
 <?php include('includes/write-us.php');?>
 </body>
+
 </html>
